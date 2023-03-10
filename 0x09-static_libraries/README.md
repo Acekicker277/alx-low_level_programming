@@ -1,4 +1,8 @@
-### C - Static libraries
+### Please  🙏 avoid this directory while it is being maintained; it will shortly be rectified.
+
+### C - Sta
+
+tic libraries
 ### Tests ✔️
 tests: This is a folder of test files. Provided by Holberton School.
 ### Tasks 🧾
