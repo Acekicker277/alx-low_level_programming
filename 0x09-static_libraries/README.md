@@ -1,7 +1,7 @@
 # C - Static libraries
 
 ## Tests ✔️
-tests: This is a folder of test files. Provided by Holberton School.
+[tests](: This is a folder of test files. Provided by Holberton School.
 
 ## Tasks 🧾
 
