@@ -1,9 +1,9 @@
-### C - Static libraries
+#C - Static libraries
 
-### Tests ✔️
+## Tests ✔️
 tests: This is a folder of test files. Provided by Holberton School.
 
-### Tasks 🧾
+## Tasks 🧾
 
 
 ### 0. A library is not a luxury but one of the necessities of life
@@ -35,5 +35,5 @@ holberton.h: Header file containing the prototypes of all functions included in 
 create_static_lib.sh: Bash script that creates a static library called liball.a from all the .c files in the current directory.
 
 Author 👤 
-Acekicker277 | [Twitter](https://twitter.com/HaymoreAy?t=iI6aWw2a9dKoUss2BsZhJw&s=09) | [Github](https://github.com/Acekicker277)
+Acekicker277 ||  [Twitter](https://twitter.com/HaymoreAy?t=iI6aWw2a9dKoUss2BsZhJw&s=09)  [Github](https://github.com/Acekicker277)
 
