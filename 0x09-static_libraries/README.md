@@ -7,7 +7,7 @@
 
 
 ### 0. A library is not a luxury but one of the necessities of life
-[libmy.a](): C Static library containing all the functions listed below:
+[libmy.a](https://github.com/Acekicker277/alx-low_level_programming/blob/main/0x09-static_libraries/libmy.a): C Static library containing all the functions listed below:
 
 `int _putchar(char c);
 int _islower(int c);
