@@ -1,8 +1,8 @@
 
-#C - argc, argv
+# C- argc, argv
 In this project, I learned about utilizing arguments passed to C functions with ==argc== and ==argv== as well as how to use ==__attribute__((unused))== or void to compile functions with unused variables or parameters.
 
-##Tasks 📃
+## Tasks 📃
 
 ### 0. It ain't what they call you, it's what you answer to
 
@@ -29,7 +29,7 @@ If one of the numbers contains symbols that are not digits, the program prints E
 100-change.c: C program that prints the minimum number of coins to make change for an amount of money.
 Usage: ==./change cents== where ==cents== is the amount of cents needed to give back.
 Change can use an unlimited number of coins of values 25, 10, 5, 2 and 1 cent.
-If the number passed as the argument is negative, the program prints ==0== followed by a new line.
+If the number passed as the argument is negative, the program prints == 0 == followed by a new line.
 If the number of arguments passed to the program is not exactly one, it prints Error followed by a new line and returns ==1.==
 Authors ✒️ 
 Acekicker277 | [Twitter](https://twitter.com/HaymoreAy?t=iI6aWw2a9dKoUss2BsZhJw&s=09) | [Github](https://github.com/Acekicker277)
