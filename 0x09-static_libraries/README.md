@@ -1,7 +1,7 @@
 # C - Static libraries
 
 ## Tests ✔️
-[tests](: This is a folder of test files. Provided by Holberton School.
+[tests](https://github.com/Acekicker277/alx-low_level_programming/tree/main/0x09-static_libraries/tests): This is a folder of test files. Provided by Holberton School.
 
 ## Tasks 🧾
 
