@@ -34,7 +34,7 @@ If one of the numbers contains symbols that are not digits, the program prints E
 
 ### 5. Minimal Number of Coins for Change
 • [100-change.c](https://github.com/Acekicker277/alx-low_level_programming/blob/main/0x0A-argc_argv/100-change.c): C program that prints the minimum number of coins to make change for an amount of money.
-Usage: ==./change cents== where ==cents== is the amount of cents needed to give back.
+Usage: ==./change cents== where `cents` is the amount of cents needed to give back.
 Change can use an unlimited number of coins of values 25, 10, 5, 2 and 1 cent.
 If the number passed as the argument is negative, the program prints == 0 == followed by a new line.
 If the number of arguments passed to the program is not exactly one, it prints Error followed by a new line and returns ==1.==
