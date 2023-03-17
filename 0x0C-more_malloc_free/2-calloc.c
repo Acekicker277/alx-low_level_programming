@@ -27,4 +27,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		arry[a] = 0;
 
 	return (arry);
-e
+}
