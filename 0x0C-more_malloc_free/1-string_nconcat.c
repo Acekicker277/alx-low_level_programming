@@ -1,44 +1,50 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- * string_nconcat - A function that concatenates two strings
- * @s1: An input pointer of the first string
- * @s2: An input pointer of the second string
- * @n: an input integer of number of string to concatenate
- * Return: Apointer to concatened strings or NULL if it str is NULL
+ * string_nconcat - concatenating string
+ * @s1: the first string
+ * @s2: the second string
+ * @n: number of characters to pick from second string
+ * Return: pointer if success
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *new_str;
-	unsigned int i = 0, lens1 = 0, lens2 = 0;
+	char *p;
+	unsigned int i, m, l, a = 0;
 
 	if (s1 == NULL)
 		s1 = "";
 
-	while (s1[lens1])
-		lens1++;
-
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s2[lens2])
-		lens2++;
-
-	if (n >= lens2)
-		n = lens2;
-
-	new_str = malloc(lens1 + n + 1);
-	if (new_str == NULL)
-		return (NULL);
-
-	for (; i < (lens1 + n); i++)
+	i = 0;
+	while (s1[i] != '\0')
 	{
-		if (i < lens1)
-			new_str[i] = *s1, s1++;
-		else
-			new_str[i] = *s2, s2++;
+		i++;
 	}
-	new_str[i] = '\0';
-	return (new_str);
+
+	m = 0;
+	while (s2[m] != '\0')
+	{
+		m++;
+	}
+
+	p = malloc(sizeof(*p) * (n + i) + 1);
+	if (p == NULL)
+	{
+		return (0);
+	}
+	for (l = 0; l < i; l++)
+	{
+		p[l] = s1[l];
+	}
+	for (; a < n; a++, l++)
+	{
+		p[l] = s2[a];
+	}
+	p[l] = '\0';
+	return (p);
 }
