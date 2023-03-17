@@ -1,23 +1,30 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * _calloc - Main Entry
- * @nmemb: input
- * @size: input
- * Return: 0
+ * _calloc - create an array and initialize to 0
+ * @nmemb: number of elements to be created
+ * @size: size of each element in byte
+ * Return: arry when success
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *p;
-	unsigned int i;
+	char *arry;
+	unsigned int a;
 
-	if (nmemb == 0 || size == 0)
+	if (nmemb == 0)
 		return (NULL);
-	p = malloc(nmemb * size);
-	if (p == NULL)
+
+	if (size == 0)
 		return (NULL);
-	for (i = 0; i < (nmemb * size); i++)
-		p[i] = 0;
-	return (p);
-}
+
+	arry = malloc(nmemb * size);
+
+	if (arry == NULL)
+		return (NULL);
+
+	for (a = 0; a < (nmemb * size); a++)
+		arry[a] = 0;
+
+	return (arry);
+e
