@@ -3,6 +3,12 @@ import ctypes
 
 cops = ctypes.CDLL('./100-operations.so')
 
+cops.add.argtypes = [ctypes.c_int, ctypes.c_int]
+cops.sub.argtypes = [ctypes.c_int, ctypes.c_int]
+cops.mul.argtypes = [ctypes.c_int, ctypes.c_int]
+cops.div.argtypes = [ctypes.c_int, ctypes.c_int]
+cops.mod.argtypes = [ctypes.c_int, ctypes.c_int]
+
 a = random.randint(-111, 111)
 b = random.randint(-111, 111)
 
